@@ -1,0 +1,239 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font: 16px/27px arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333;
+    background-image: url(/img/moroccan-flower.png);
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.header {
+    padding: 20px;
+    margin-bottom: -20px;
+    /* color: rgb(211, 76, 61); */
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 20px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    /* border-right: 2px solid black; */
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(20, 146, 146);
+    padding: 5px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: rgb(7, 101, 129);
+    color: rgb(255, 255, 255);
+}
+
+.gambar {
+    height: 300px;
+    background-image: url(img/hero1.jpg);
+    background-size: cover;
+    background-position: 0 -100px;
+    border-top: 5px solid rgb(7, 101, 129);
+    border-bottom: 5px solid salmon;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.content a {
+    text-decoration: none;
+    color: rgb(7, 101, 129);
+    padding: 2px;
+}
+
+.content a:hover {
+    background-color: rgb(7, 101, 129);
+    color: rgb(255, 255, 255);
+}
+
+.content p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.content .satu {
+    text-indent: 40px;
+}
+
+.footer {
+    background-color: #333;
+    padding: 20px;
+    border-top: 3px solid rgb(7, 101, 129);
+    margin-top: 18px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
